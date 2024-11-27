@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sweet Bakery</title>
+  <!--swiper css-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <!--aos css-->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!--bootstrap css-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <!--font awesome css-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!--custom css-->
+  <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+
+<body>
+
+<div class="loader-container">
+ <div class="loader"></div>
+</div>
+  
+
+  <!--header section-->
+  <header class="header d-flex flex-wrap py-2 px-3  ">
+
+    <!--small screen-->
+    <div class="dots-icon-container">
+      <div class="dots-icon">
+        <i class="fa-solid fa-ellipsis-vertical"></i>
+      </div>
+    </div>
+
+    <!--small screen-->
+    <div class="content-screen">
+      <div class="address-screen fs-6  ms-3 mb-2 text-dark">
+        <i class="fa-solid fa-location-dot me-2 fs-2" style="color: #c14679;"></i>
+        <div class="d-flex flex-wrap flex-column">
+          <span> 523 Sylvan Ave </span>
+          <span> Mountain View,CA 94041 USA </span>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="address fs-6  ms-3 mb-2 text-dark">
+      <i class="fa-solid fa-location-dot me-2 fs-2" style="color: #c14679;"></i>
+      <div class="d-flex flex-wrap flex-column">
+        <span> 523 Sylvan Ave </span>
+        <span> Mountain View,CA 94041 USA </span>
+      </div>
+    </div>
+
+
+    <div class="logo">
+      <a href="index.html"><img src="./assets/img/header/logo.png" alt="cupcake icon"></a>
+    </div>
+
+
+    <button class="contact-button  py-2 px-3 me-3 mb-2 ">
+      <i class="fa-regular fa-envelope me-1 "></i>
+      GET IN TOUCH
+    </button>
+
+  </header>
+
+
+
+  <!-- navbar Section -->
+  <nav class="navbar d-flex flex-wrap justify-content-between navbar-expand-lg bg-white">
+    <div class="container">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">GALLERY</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">SHOP</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">BLOG</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">PAGES</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">ELEMENTS</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">CONTACT US</a>
+          </li>
+        </ul>
+
+      </div>
+
+      <div class="icons d-flex flex-wrap ">
+        <i class="fa-solid fa-magnifying-glass search-icon" style="color: #151515;"></i>
+        <i class="fa-solid fa-cart-shopping cart-icon" style="color: #151515;"></i>
+      </div>
+
+    </div>
+  </nav>
+
+
+  <main>
+
+    <!--first section-->
+    <section class="first-section vh-100 ">
+      <div class="container d-flex flex-wrap h-100 align-items-center">
+        <div class="fs-content">
+          <span class="design-word"> Delicious </span>
+          <h2>CAKES FOR YOU </h2>
+          <p>Sweet Bakery offers the best cakes and sweets for you.</p>
+          <a href="#" class="shop-button">SHOP NOW</a>
+        </div>
+      </div>
+    </section>
+
+
+    <!--second section-->
+    <section class="second-section  ">
+      <div class="container h-100 text-center">
+        <div class="sec-content  ">
+
+          <h3>Only Fresh Cakes</h3>
+          <p>All of our products are made from scratch using family recipes with only the highest quality ingredients.
+            We bake and sell fresh daily to ensure only the best products are sold to our customers.</p>
+
+        </div>
+
+        <div class="arrow-icon d-flex border rounded-circle ">
+          <i class="fa-solid fa-arrow-right "></i>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!--third section-->
+    <section class="third-section  ">
+      <div class="container ">
+        <h2 class="text-center fw-bold" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200"
+          data-aos-offset="300">WHAT WE OFFER</h2>
+
+        <div class="row m-4 ">
+          <div class=" col-lg-4 col-md-6 " data-aos="fade-up">
+            <div class="card p-2 ">
+              <img src="./assets/img/sections/fs-3-1.jpg" alt="Party Cupcakes">
+              <div class="card-content text-center ">
+                <h4 class="card-title">PARTY CUPCAKES</h4>
+                <p class="card-text">We provide a variety of cupcakes for any party made with high-quality natural
+                  ingredients and no preservatives.</p>
+                <a href="#" class="btn-read-more">READ MORE</a>
+              </div>
+            </div>
+          </div>
+
+          <div class=" col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="card  p-2">
+              <img src="./assets/img/sections/fs-3-2.jpg" alt="Choco Cakes">
+              <div class="card-content text-center ">
+                <h4 class="card-title">CHOCO CAKES</h4>
+                <p class="card-text">Nothing tastes better than a chocolate cake with a variety of flavors, which is
+                  always available at our bakery.</p>
+                <a href="#" class="btn-read-more">READ MORE</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="card-three col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="card p-2">
+              <img src="./assets/img/sections/fs-3-3.jpg" alt="Wedding Cakes">
+              <div class="card-content text-center">
+                <h4 class="card-title">WEDDING CAKES</h4>
+                <p class="card-text ">Want to make your wedding unforgettable? Then you need to order a unique wedding
+                  cake at Sweet Bakery!</p>
+                <a href="#" class="btn-read-more">READ MORE</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!--fourth section-->
+    <section class="fourth-section vh-100">
+      <div class="container h-100">
+        <h2 class="text-center" data-aos="zoom-out-up" data-aos-duration="1000" data-aos-delay="200"
+          data-aos-offset="300">
+          NEW PRODUCTS
+        </h2>
+
+        <!-- Swiper Container -->
+        <div class="swiper my-swiper-1">
+          <div class="swiper-wrapper">
+            <!-- Slide 1 -->
+            <div class="swiper-slide">
+              <div class="product-card text-center">
+                <span class="sale-word">SALE</span>
+                <img src="./assets/img/sections/fs-4-1.png" alt="Chocolate Truffles">
+                <h4>CHOCOLATE TRUFFLES</h4>
+                <span class="old-price">$30.00</span>
+                <span class="new-price">$23.00</span>
+                <div class="hover-icons">
+                  <span class="icon"><i class="fas fa-search hover-i"></i></span>
+                  <span class="icon"><i class="fas fa-shopping-cart hover-i ms-2"></i></span>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="product-card text-center">
+                <img src="./assets/img/sections/fs-4-2.png" alt="Chocolate Truffles">
+                <h4>CHOCOLATE PUDDING</h4>
+                <span class="new-price">$25.00</span>
+                <div class="hover-icons">
+                  <span class="icon"><i class="fas fa-search hover-i  "></i></span>
+                  <span class="icon"><i class="fas fa-shopping-cart hover-i ms-2"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="swiper-slide">
+              <div class="product-card text-center">
+                <span class="new-word">NEW</span>
+                <img src="./assets/img/sections/fs-4-3.png" alt="Chocolate Truffles">
+                <h4>DARK CHOCOLATE CAKE</h4>
+                <span class="new-price">$15.00</span>
+                <div class="hover-icons">
+                  <span class="icon"><i class="fas fa-search hover-i "></i></span>
+                  <span class="icon"><i class="fas fa-shopping-cart hover-i ms-2"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="swiper-slide">
+              <div class="product-card text-center">
+                <img src="./assets/img/sections/fs-4-4.png" alt="Chocolate Truffles">
+                <h4>CHOCOLATE COOKIES</h4>
+                <span class="new-price">$12.00</span>
+                <div class="hover-icons">
+                  <span class="icon"><i class="fas fa-search hover-i"></i></span>
+                  <span class="icon"><i class="fas fa-shopping-cart hover-i ms-2"></i></span>
+                </div>
+              </div>
+            </div>
+
+
+
+
+
+            <div class="swiper-slide">
+
+              <div class="product-card text-center">
+                <span class="new-word">NEW</span>
+                <img src="./assets/img/sections/fs-4-3.png" alt="Chocolate Truffles">
+                <h4>DARK CHOCOLATE CAKE</h4>
+                <span class="new-price">$15.00</span>
+                <div class="hover-icons">
+                  <span class="icon"><i class="fas fa-search hover-i"></i></span>
+                  <span class="icon"><i class="fas fa-shopping-cart hover-i ms-2"></i></span>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="product-card text-center">
+                <img src="./assets/img/sections/fs-4-4.png" alt="Chocolate Truffles">
+                <h4>CHOCOLATE COOKIES</h4>
+                <span class="new-price">$12.00</span>
+                <div class="hover-icons">
+                  <span class="icon"><i class="fas fa-search hover-i"></i></span>
+                  <span class="icon"><i class="fas fa-shopping-cart hover-i ms-2"></i></span>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="product-card text-center">
+                <span class="sale-word">SALE</span>
+                <img src="./assets/img/sections/fs-4-1.png" alt="Chocolate Truffles">
+                <h4>CHOCOLATE TRUFFLES</h4>
+                <span class="old-price">$30.00</span>
+                <span class="new-price">$23.00</span>
+                <div class="hover-icons">
+                  <span class="icon"><i class="fas fa-search hover-i"></i></span>
+                  <span class="icon"><i class="fas fa-shopping-cart hover-i ms-2"></i></span>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="product-card text-center">
+                <img src="./assets/img/sections/fs-4-2.png" alt="Chocolate Truffles">
+                <h4>CHOCOLATE PUDDING</h4>
+                <span class="new-price">$25.00</span>
+                <div class="hover-icons">
+                  <span class="icon"><i class="fas fa-search hover-i  "></i></span>
+                  <span class="icon"><i class="fas fa-shopping-cart hover-i ms-2"></i></span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="swiper-pagination"></div>
+
+        </div>
+    </section>
+
+    <!--fifth section-->
+    <section class="fifth-section py-5">
+      <div class="container h-100">
+        <h2 class="text-center mb-5" data-aos="zoom-out" data-aos-duration="1000" data-aos-delay="100"
+          data-aos-offset="300">WHY CHOOSE US</h2>
+        <div class="row ">
+          <div class="col-md-4 text-center" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="100"
+            data-aos-offset="300">
+            <div class="quality-section d-flex first-item-border">
+              <div class="quality-content ">
+                <h4 class="fw-bold">QUALITY PRODUCTS</h4>
+                <p>We guarantee the quality of all the cakes we provide as they are baked using the freshest
+                  ingredients.</p>
+              </div>
+              <i class="fa-solid fa-cake-candles" style="color: #c14679;"></i>
+            </div>
+          </div>
+
+          <div class="strawberry-parent col-md-4 text-center" data-aos="zoom-out" data-aos-duration="1000"
+            data-aos-delay="100" data-aos-offset="300">
+            <img src="./assets/img/sections/fs-5-bg.jpg" class="strawberry-img" alt="Chocolate Strawberry">
+          </div>
+
+          <div class="col-md-4 text-center">
+            <div class=" service-section d-flex second-item-border" data-aos="fade-left" data-aos-duration="1000"
+              data-aos-delay="100" data-aos-offset="300">
+              <i class="fa-brands fa-pagelines" style="color: #c14679;"></i>
+              <div class="service-content">
+                <h4 class="fw-bold">CATERING SERVICE</h4>
+                <p>Our bakery also provides an outstanding catering service for events and special occasions.</p>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+
+        <div class="row  mt-4">
+          <div class="  col-md-6 text-center">
+            <div class=" delivery-section d-flex " data-aos="fade-right" data-aos-duration="1000" data-aos-delay="100"
+              data-aos-offset="300">
+              <div class="delivery-content">
+                <h4 class="fw-bold ">FREE DELIVERY</h4>
+                <p>All orders submitted by our US clients are delivered for free throughout the United States.</p>
+              </div>
+
+              <i class="fa-solid fa-truck-moving" style="color: #c14679;"></i>
+            </div>
+
+          </div>
+
+
+          <div class="col-md-6 text-center">
+            <div class=" payment-section d-flex" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="100"
+              data-aos-offset="300">
+              <i class="fa-regular fa-credit-card" style="color: #c14679;"></i>
+              <div class="payment-content">
+                <h4 class="fw-bold">ONLINE PAYMENT</h4>
+                <p>We accept all kinds of online payments including Visa, MasterCard, American Express credit cards.
+                </p>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+
+    <!--sixth section-->
+    <section class="sixth-section vh-100">
+
+      <div class="container h-100 ">
+
+        <div class="row align-items-center  ">
+          <div class="sixth-section-content  col-lg-6 col-md-8 col-sm-10">
+            <h1 data-aos="fade-right" data-aos-duration="2000" data-aos-delay="100" data-aos-offset="300">SUMMER SALE
+            </h1>
+            <h2 class="section-discount" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="100"
+              data-aos-offset="300">-20% <span>ON ALL CAKES</span> </h2>
+            <p data-aos="fade-right" data-aos-duration="2000" data-aos-delay="100" data-aos-offset="300">Purchase our
+              tasty cakes and sweets for your next event or family dinner at our online shop and save more money than
+              anywhere.</p>
+            <a href="#" class="shop-button">SHOP NOW</a>
+          </div>
+        </div>
+
+
+      </div>
+    </section>
+
+
+    <!--seventh section-->
+    <section class="seventh-section  py-5">
+      <div class="container h-100 text-center ">
+
+        <h2 class="fw-bold" data-aos="zoom-out" data-aos-duration="2000" data-aos-delay="100" data-aos-offset="300">
+          OUR TEAM</h2>
+        <div class="row justify-content-center">
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="team-member d-flex flex-column align-items-center text-center" data-aos="fade-up"
+              data-aos-duration="1000" data-aos-delay="100" data-aos-offset="300">
+              <div class="member-image">
+                <img src="./assets/img/sections/member-1.jpg" alt="Richard Smith" class="img-fluid">
+              </div>
+              <h4 class="mt-3">RICHARD SMITH</h4>
+              <p>Richard has a true passion for baking and that’s why he has been our founder and head baker since day
+                one.</p>
+              <div class="seventh-section-icons">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="team-member d-flex flex-column align-items-center text-center" data-aos="fade-up"
+              data-aos-duration="1000" data-aos-delay="100" data-aos-offset="300">
+              <div class="member-image">
+                <img src="./assets/img/sections/member-2.jpg" alt="Susan Anderson" class="img-fluid">
+              </div>
+              <h4 class="mt-3">SUSAN ANDERSON</h4>
+              <p>Susan spends most of her time baking and cake decorating as well as heading up the bakery's marketing
+                initiatives.</p>
+              <div class="seventh-section-icons">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="team-member d-flex flex-column align-items-center text-center" data-aos="fade-up"
+              data-aos-duration="1000" data-aos-delay="100" data-aos-offset="300">
+              <div class="member-image ">
+                <img src="./assets/img/sections/member-3.jpg" alt="Steve Ruffalo" class="img-fluid">
+              </div>
+              <h4 class="mt-3">STEVE RUFFALO</h4>
+              <p>Steve is our lead cake designer. He has designed beautiful cakes for various occasions including
+                weddings, parties, showers, anniversaries, and more.</p>
+              <div class="seventh-section-icons">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!--eighth section-->
+    <section class="eighth-section ">
+      <div class="container h-100 text-center ">
+
+        <div class=" eighth-section-content align-items-center text-center">
+          <div class="col-12">
+            <p class="small-heading" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="100"
+              data-aos-offset="300">Unique Flavors and Fresh Ingredients</p>
+            <h1 class="main-heading" data-aos="zoom-out-up" data-aos-duration="1000" data-aos-delay="100"
+              data-aos-offset="300">ALL KINDS OF CAKES</h1>
+            <button class="second-read-more-btn" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100"
+              data-aos-offset="300">READ MORE</button>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!--ninth section-->
+    <section class="ninth-section py-5">
+      <div class="container h-100 text-center">
+        <h2 class="testimonials-title">TESTIMONIALS</h2>
+
+        <!-- Swiper Container -->
+        <div class="swiper my-swiper-2">
+          <div class="swiper-wrapper ">
+
+
+            <div class="swiper-slide swiper-slide-2">
+              <div class="row justify-content-center">
+                <div class="testimonial-opinion item-with-border d-flex">
+                  <p class="quote">“</p>
+                  <p class="opinion-text">
+                    Thank you so much for the elegant cupcakes. They looked and tasted amazing. I’m recommending you
+                    to all my friends.
+                  </p>
+                </div>
+                <div class="d-flex align-items-center mt-5">
+                  <img src="./assets/img/sections/client-1.jpg" class="rounded-circle" alt="Patrick Goodman">
+                  <div class="ms-3 text-start">
+                    <h6 class="mb-0 testimonial-name">PATRICK GOODMAN</h6>
+                    <p class="testimonial-role">Client</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide swiper-slide-2">
+              <div class="row justify-content-center">
+                <div class="testimonial-opinion item-with-border d-flex">
+                  <p class="quote">“</p>
+                  <p class="opinion-text">
+                    Just a note to let you know how fabulous your wedding cake was. Many guests commented on how
+                    delicious it tasted.
+                  </p>
+                </div>
+                <div class="d-flex align-items-center mt-5">
+                  <img src="./assets/img/sections/client-2.jpg" class="rounded-circle" alt="Jane Smith">
+                  <div class="ms-3 text-start">
+                    <h6 class="mb-0 testimonial-name">JANE SMITH</h6>
+                    <p class="testimonial-role">Client</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide swiper-slide-2">
+              <div class="row justify-content-center">
+                <div class="testimonial-opinion item-with-border d-flex">
+                  <p class="quote">“</p>
+                  <p class="opinion-text">
+                    If you are looking for the mouth deliciousness, then you should definitely try the goods from the
+                    Sweet Bakery.
+                  </p>
+                </div>
+                <div class="d-flex align-items-center mt-5">
+                  <img src="./assets/img/sections/client-3.jpg" class="rounded-circle" alt="Sam Wilson">
+                  <div class="ms-3 text-start">
+                    <h6 class="mb-0 testimonial-name">Sam Wilson</h6>
+                    <p class="testimonial-role">Client</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="swiper-slide swiper-slide-2">
+              <div class="row justify-content-center">
+                <div class="testimonial-opinion item-with-border d-flex">
+                  <p class="quote">“</p>
+                  <p class="opinion-text">
+                    This bakery was great to work with and I will be using them for my future events. Their cupcakes
+                    tasted absolutely delightful.
+                  </p>
+                </div>
+                <div class="d-flex align-items-center mt-5">
+                  <img src="./assets/img/sections/client-4.jpg" class="rounded-circle" alt="Jane Peterson">
+                  <div class="ms-3 text-start">
+                    <h6 class="mb-0 testimonial-name">Jane Peterson</h6>
+                    <p class="testimonial-role">Client</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Pagination -->
+          <div class="swiper-pagination"></div>
+
+        </div>
+      </div>
+    </section>
+
+    <!--tenth section-->
+    <section class="tenth-section  ">
+      <div class="container h-100  ">
+
+
+        <div class="row justify-content-center">
+          <div class="col-2 ">
+            <img src="./assets/img/sections/fs-10-1.png" alt="100% Organic" class="tenth-img img-fluid">
+          </div>
+
+          <div class="col-2 ">
+            <img src="./assets/img/sections/fs-10-2.png" alt="Fresh Vegan Food" class="tenth-img img-fluid">
+          </div>
+
+          <div class="col-2 ">
+            <img src="./assets/img/sections/fs-10-3.png" alt="Locally Grown" class="tenth-img img-fluid">
+          </div>
+
+          <div class="col-2 ">
+            <img src="./assets/img/sections/fs-10-4.png" alt="100% Organic Product" class="tenth-img img-fluid">
+          </div>
+
+          <div class="col-2 ">
+            <img src="./assets/img/sections/fs-10-5.png" alt="Vegan" class="tenth-img img-fluid">
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!--footer section-->
+  <footer class="footer ">
+    <div class="container h-100  ">
+
+      <div class="row  d-flex align-items-center  ">
+
+        <div class="gallery-section col-lg-3 col-md-5 mb-4 " data-aos="fade-right" data-aos-duration="1000"
+          data-aos-delay="100" data-aos-offset="300">
+          <h5>GALLERY</h5>
+          <div class="row gallery ">
+            <div class="col-4"><img src="./assets/img/sections/final-section-1.jpg" alt="Image 1"></div>
+            <div class=" col-4"><img src="./assets/img/sections/final-section-2.jpg" alt="Image 2"></div>
+            <div class="col-4"><img src="./assets/img/sections/final-section-3.jpg" alt="Image 3"></div>
+            <div class="col-4"><img src="./assets/img/sections/final-section-4.jpg" alt="Image 4"></div>
+            <div class="col-4"><img src="./assets/img/sections/final-section-5.jpg" alt="Image 5"></div>
+            <div class="col-4"><img src="./assets/img/sections/final-section-6.jpg" alt="Image 6"></div>
+          </div>
+        </div>
+
+
+        <div class=" col-lg-3 col-md-5 mb-4 " data-aos="fade-right" data-aos-duration="1000" data-aos-delay="100"
+          data-aos-offset="300">
+          <h5>QUICK LINKS</h5>
+          <div class="row">
+            <div class="col-6">
+              <ul>
+                <li> <span class="link-line"></span> <a href="#">About Us</a></li>
+                <li> <span class="link-line"></span> <a href="#">Our Team</a></li>
+                <li> <span class="link-line"></span> <a href="#">Shop</a></li>
+                <li> <span class="link-line"></span> <a href="#">Pricing</a></li>
+                <li> <span class="link-line"></span> <a href="#">FAQ</a></li>
+                <li> <span class="link-line"></span> <a href="#">Contact Us</a></li>
+              </ul>
+            </div>
+            <div class="col-6">
+              <ul>
+                <li> <span class="link-line"></span> <a href="#">What We Offer</a></li>
+                <li> <span class="link-line"></span> <a href="#">Our Blog</a></li>
+                <li> <span class="link-line"></span> <a href="#">Testimonials</a></li>
+                <li> <span class="link-line"></span> <a href="#">Baking School</a></li>
+                <li> <span class="link-line"></span> <a href="#">Our Recipes</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="get-in-touch-section col-lg-3 col-md-5 mb-4  " data-aos="fade-right" data-aos-duration="1000"
+          data-aos-delay="100" data-aos-offset="300">
+          <h5>GET IN TOUCH</h5>
+          <div class="contact-info">
+            <div class="d-flex flex-wrap">
+              <i class="fa-solid fa-location-dot me-3 fs-5" style="color: #c14679;"></i>
+              <div class="d-flex flex-wrap flex-column  mb-3">
+                <span> 523 Sylvan Ave </span>
+                <span> Mountain View,CA 94041 USA </span>
+              </div>
+            </div>
+
+            <p><i class="fa-solid fa-phone me-2" style="color: #c14679;"></i> +1 (844) 123 456 78</p>
+            <p><i class="fa-regular fa-envelope me-2" style="color: #c14679;"></i> info@demolink.org</p>
+          </div>
+          <div class="footer-social-icons d-flex gap-3 mt-4">
+            <a href="#" class="footer-social-icon"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#" class="footer-social-icon"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#" class="footer-social-icon"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="footer-social-icon"><i class="fa-brands fa-google-plus-g"></i></a>
+            <a href="#" class="footer-social-icon"><i class="fa-brands fa-skype"></i></a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    
+  </footer>
+
+  <button id="scroll-to-top" style="display: none;">Return to top of page</button>
+
+
+  <!--copy right statement-->
+  <footer class="simple-footer ">
+    <div class="container text-center">
+      <p class="mb-0">&copy; 2024. Sweet Bakery. All Rights Reserved. <a href="#">Privacy Policy</a></p>
+    </div>
+  </footer>
+
+
+  <!--swiper js-->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!--aos js-->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <!--bootstrap js-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
+  <!--custom js-->
+  <script src="./assets/js/main.js"></script>
+
+</body>
